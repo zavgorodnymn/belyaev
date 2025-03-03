@@ -1,0 +1,53 @@
+.schedule-table {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+.schedule-table table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.schedule-table th {
+  background-color: #f4f4f4;
+}
+
+.schedule-cell {
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.schedule-cell.lecture {
+  background-color: #e3f2fd;
+}
+
+.schedule-cell.practice {
+  background-color: #e8f5e9;
+}
+
+.schedule-cell.lab {
+  background-color: #fff3e0;
+}
+
+.course-title {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.room {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.teacher {
+  font-size: 0.9em;
+  font-style: italic;
+} 
